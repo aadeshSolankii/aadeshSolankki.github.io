@@ -681,9 +681,12 @@ a:focus {
 
 // info section
 .info_section {
+  text-align: center;
   background-color: $primary2;
   color: $white;
-  padding: 45px 0 15px 0;
+  padding: 95px 0 15px 0;
+  align-items: center;
+  margin: auto;
 
   h4 {
     font-weight: 600;
@@ -691,7 +694,8 @@ a:focus {
   }
 
   .info_col {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    align-items: center;
   }
 
   .info_contact {
